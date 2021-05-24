@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+    <class name="Experiences.Calendar"/>
+    <class name="Experiences.CalendarTestMode"/>
+    <class name="Experiences.DropGame"/>
+    <class name="Experiences.DropGameTestMode"/>
+      <class name="Experiences.InstantWin"/>
+      <class name="Experiences.InstantWinTestMode"/>
+      <class name="Experiences.LandingPage"/>
+      <class name="Experiences.LandingPageTestMode"/>
+      <class name="Experiences.MemoryGame"/>
+      <class name="Experiences.MemoryGameTestMode"/>
+      <class name="Experiences.Pinball"/>
+      <class name="Experiences.PinballTestMode"/>
+      <class name="Experiences.PRizeDraw"/>
+      <class name="Experiences.PRizeDrawTestMode"/>
+      <class name="Experiences.Profiler"/>
+      <class name="Experiences.ProfilerTestMode"/>
+      <class name="Experiences.Quiz_Testmode"/>
+      <class name="Experiences.Quiz"/>
+      <class name="Experiences.RAF"/>
+      <class name="Experiences.RAFTestMode"/>
+      <class name="Experiences.Surveys"/>
+      <class name="Experiences.SurveysTestmode"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
